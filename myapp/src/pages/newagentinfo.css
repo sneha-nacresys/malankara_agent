@@ -1,0 +1,37 @@
+.inputlabel{
+    font-size: 12px;
+    color: black;
+    z-index: -999;
+  }
+  .inputcontrol{
+    width: 500px;
+      border: none;
+      border-bottom: 1px dotted #0f0e0e;
+      
+      &:focus {
+          color: black;
+          background-color:rgba(121, 190, 247, 0.384);
+          border-color: black;
+          padding: 0 0 5px 10px;
+          outline: 0;
+          @if $enable-shadows {
+            @include box-shadow($input-box-shadow, $input-focus-box-shadow);  
+          } @else {
+            
+            box-shadow: $input-focus-box-shadow;
+          }
+         
+        }
+    }
+    @media(max-width:728px){
+        .input{
+            width: 200px;
+            margin-right: 200px;
+        }
+        #contact8{
+            z-index: 2000;
+        }
+    }
+   
+
+    /* --------------------agent info ------------------- */

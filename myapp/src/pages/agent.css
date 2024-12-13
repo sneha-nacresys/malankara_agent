@@ -1,0 +1,97 @@
+.heading{
+    padding: 30px;
+}
+.createagent{
+
+    height: 90vh;
+    width: 100%;
+}
+.heading h5{
+    text-align: center;
+    background-color:rgb(163, 161, 161);
+    padding: 10px;
+    color: white;
+}
+.one{
+    position: relative;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+}
+.two{
+    position: absolute;
+    height: 40vh;
+    width: 50%;
+    left: 300px;
+}
+.three{
+    position: absolute;
+    height: 40vh;
+    width: 50%;
+    left: 700px;
+}
+.tr{
+    display: flex;
+    padding: 10px;
+}
+td{
+    width: 150px;
+    
+}
+.input{
+  
+    border: none;
+    border-bottom: 1px dotted #0f0e0e;
+}
+.button{
+    text-align: center;
+    margin-top: 30px;
+    padding: 50px;
+}
+.button button{
+    border: none;
+   width: 100px;
+   background-color: green;
+   color: white;
+   border-radius: 10px;
+    
+}
+.button Button:hover{
+    border: none;
+   width: 100px;
+   background-color: green;
+   color: white;
+   border-radius: 10px;
+    
+}
+#nav-dropdownm{
+color: rgb(252, 247, 247);
+font-weight: bold;
+}
+@media(max-width:728px){
+    .two{
+        margin-top: 60px;
+       left: 0px;
+       margin-right: 100px;
+    }
+    .three{
+        margin-top: 320px;
+       left: 0px;
+       margin-right: 100px;
+    }
+    .input{
+        width: 150px;
+        border: none;
+        border-bottom: 1px dotted #0f0e0e;
+    }
+    .heading h5{
+        margin-top: 20px;
+    }
+    .one{
+        display: block;
+        flex-direction: column;
+    }
+    .button{
+        margin-top: 290px;
+    }
+}

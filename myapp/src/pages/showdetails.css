@@ -1,0 +1,20 @@
+.button3 {
+    border: none;
+   width: 100px;
+   background-color: green;
+   color: white;
+   border-radius: 10px;
+
+}
+.button2{
+    padding: 20px;
+}
+.button2 button{
+    padding: 7px;
+}
+@media(max-width:728px){
+    .button3{
+        width: 70px;
+        margin-right: 20px;
+    }
+}

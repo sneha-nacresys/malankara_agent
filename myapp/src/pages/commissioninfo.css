@@ -1,0 +1,14 @@
+/* .table{
+    overflow: hidden;
+    width: 98%;
+  
+}
+@media(max-width:728px){
+    .table{
+        overflow-y: scroll;
+        height: 400px;
+    }
+    .tbody{
+        height: 0px;
+    }
+} */

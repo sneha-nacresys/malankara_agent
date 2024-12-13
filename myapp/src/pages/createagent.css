@@ -1,0 +1,1610 @@
+/* Change the color of the hamburger icon to white */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.input1{
+  font-size: 12px;
+  color: black;
+  /* z-index: -999; */
+}
+.H5{
+color: white;
+margin-right: 20px;
+}
+
+.heading{
+margin-top:2%;
+}
+
+
+.inputs {
+  width: 500px;
+  border: none;
+  border-bottom: 1px dotted #0f0e0e;
+}
+
+.inputs:focus {
+  color: black;
+  /* background-color: rgba(211, 52, 52, 0.384); */
+  border-color: black;
+  padding: 0 0 5px 10px;
+  outline: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Assuming $input-focus-box-shadow as a placeholder */
+}
+
+
+.selectinput {
+color:black;
+font-size: 14px;
+}
+
+.trtable th{
+font-size:12px;
+font-weight:normal;
+background:#e1e1e1;
+align-content: center;
+}
+
+.chart{
+margin-top:-3%;
+margin-bottom: 25%;
+margin-left:20%;
+margin-right: 20%;
+text-align:center;
+position: absolute;
+}
+@media(max-width:728px){
+  .inputs{
+    margin-left: -10px;
+  
+  }
+.chart{
+  margin-left: 0px;
+}
+.heading{
+  margin-top: 20%;
+}
+.alert-dismissible .btn-close {
+  position: absolute;
+  top: 0;
+  width: 10px;
+  right: 0;
+  z-index: 2;
+  padding: 1.25rem 1rem;
+}
+
+.alert-dismissible .btn-close:hover {
+  position: absolute;
+  top: 0;
+  width: 10px;
+  right: 0;
+  z-index: 2;
+  padding: 1.25rem 1rem;
+}
+
+
+}
+.checkbox-container {
+display: inline-flex; 
+margin-right: 200px;
+gap: 20px;
+margin-top: 20px;
+font-size: 12px;
+}
+.verification{
+margin-right: 460px;
+margin-top: 5px;
+font-size: 12px;
+}
+.navbar{
+  color: white;
+  background:linear-gradient(90deg, rgba(29,58,175,1) 0%, rgba(2,151,70,1) 100%);
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+z-index: 1000;
+position: fixed;
+  height: 40px;
+width: 100vw;
+}
+.navbar-nav .nav-link {
+  color: white;
+
+}
+.navbar-nav .nav-link:hover {
+  color: white;
+
+}
+.navbar-collapse{
+z-index: 1000;
+align-items: center;
+}
+.adminButton{
+background: linear-gradient(#0070c0, #e1e1f1);
+box-shadow:21px 10px 30px rgb( 0 .5 0 .5);
+border-radius: 10PX;
+width: auto;
+height: auto;
+}
+#mySidenav a {
+position: absolute;
+left: -251px;
+cursor: pointer;
+transition: 0.3s;
+padding: 5px;
+margin-top: 50px;
+width: 294px;
+text-decoration: none;
+font-size: 20px;
+color: white;
+border-radius: 0 5px 5px 0;
+}
+.inputinput{
+  /* width: 500px;
+  margin-left: 60px; */
+  border: none;
+  border-bottom: 1px solid #e1e1e1;
+}
+#mySidenav a:hover {
+left: 0;
+}
+
+#contact7 {
+top: 50px;
+
+}
+
+.blog{
+background-color: #2196F3;
+width: 500px;
+margin-top: 20px;
+z-index: 100;
+}
+#contact12 {
+  top: 10px;
+ width: 100px;
+  
+  background-color: #009b40;
+  }
+  #contact111 {
+    top: 10px;
+ 
+    background-color: #f37521;
+    }
+/* #contact8 {
+top: 100px;
+  z-index: 2000;
+
+background-color: #2196F3;
+} */
+ #createagent{
+  top: 480px;
+ }
+#contact10{
+top: 50px;
+
+}
+
+#contact9 {
+top: 150px;
+
+} 
+
+#contact {
+top: 200px;
+
+}
+#contact1 {
+top: 250px;
+
+}
+#contact2 {
+top: 400px;
+width: 100px;
+}
+#contact3 {
+top: 350px;
+
+}
+#contact4 {
+top: 500px;
+
+}
+
+#contact5 {
+top: 450px;
+
+}
+#contact6 {
+top: 500px;
+
+}
+.sidenav2{
+padding-top: 100px;
+text-align: left;
+}
+
+.headingagentinfo h5{
+ font-size: 14px;
+ text-align:center;
+  background-color:rgb(163, 161, 161);
+  padding:10px;
+  width:100% ;
+  color:white 
+}
+.headingagentinfo h6{
+  font-size: 14px;
+  text-align:center;
+  margin-left: 37px;
+   background-color:rgb(163, 161, 161);
+   padding:10px;
+   width:100% ;
+   color:white 
+ }
+
+@media(max-width:768px){
+  /* .headingagentinfo h6{
+    width: 250px;
+  } */
+
+  #deactive-radio{
+    margin-left: 190px;
+    margin-top: -20px;
+  }
+  #active-radio{
+    margin-left: 50px;
+  }
+  .conditiontable{
+    margin-left: -100px;
+  }
+  #policyname-select{
+    margin-left: 0px;
+  }
+  #schemetype-select{
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  
+.plorem{
+  width: 300px;
+  margin-left: 50px;
+}
+
+.sidenav{
+  position: fixed;
+}
+#searchname-treeview{
+  margin-left: -100px;
+}
+/* #contact7 {
+  z-index: 1000;
+  } */
+  .headingagentinfo{
+    margin-left: 0px;
+  }
+.headingagentinfo h5{
+  width: 80% !important;
+ text-align: center;
+ margin: 10px auto;
+  
+}
+.block{
+  display: block;
+  flex-direction: column;
+
+}
+.inputinput{
+  padding: 30px;
+  width: 270px;
+}
+
+.sidenav{
+  margin-top: 20px;
+}
+#contact7 {
+  top: 90px;
+ 
+ 
+}
+#contact8 {
+  top: 160px;
+ 
+}
+#contact9 {
+  top: 220px;
+ 
+}
+#contact {
+  top: 280px;
+ 
+}
+#contact1 {
+  top: 340px;
+ 
+}
+#contact2 {
+  top: 400px;
+ 
+}
+#contact3{
+  top: 460px;
+ 
+}
+#contact4 {
+  top: 530px;
+ 
+}
+#contact5 {
+  top: 590px;
+ 
+}
+#contact6 {
+  top: 650px;
+
+ 
+}
+.selectbox{
+  width: 100px;
+  display: block;
+}
+#mobilenumber{
+  margin-left: 50px;
+}
+.col1{
+  width: 300px;
+  padding: 10px;
+  margin-left: 70px;
+  /* z-index: 100; */
+}
+
+
+
+}
+
+
+/* .headingagentinfo h5{
+margin-left: 20px;
+} */
+
+.selectbox{
+width: 80%;
+
+display: flex;
+}
+.selectbox Select{
+  
+width: 300px;
+}
+
+
+.btn-sec{
+height: 8vh;
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+}
+.branchBtn {
+  width: 200px;
+  height: 33px;
+text-transform: uppercase;
+border: none;
+margin-top: -300px;
+padding: 10px ;
+font-size: 14px;
+background:linear-gradient(90deg, rgba(29,58,175,1) 0%, rgba(2,151,70,1) 100%) ;
+/* background-color: rgb(29, 58, 174); */
+/* background: linear-gradient(to right, rgb(29, 58, 174), rgb(41 121 170)); */
+/* background: linear-gradient(to right, #0070c0, #77c5fc); */
+box-shadow:inset 10px 5px 20px rgba(0, 0, 0, 0.5);
+color: white;
+border-radius: 15px;
+transition: background 1s ease, box-shadow 1s , font-size 1.5s , font-weight 1.5s ; /* Individual transitions for specific properties */
+}
+
+.branchBtn:hover{
+  color: white;
+   width: 200px;
+  background: linear-gradient(to right, rgb(29, 58, 174), rgb(41, 121, 170));
+/* background: linear-gradient(to right, #0070c0, #a9d7f8); */
+box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.5);
+font-size: 12px; /* Increase font size on hover/focus */
+animation: button-shake 0.3s linear infinite; /* Add shake animation on hover/focus */
+}
+
+@keyframes button-shake {
+0% {
+  transform: rotate(2deg);
+}
+50% {
+  transform: rotate(-2deg);
+}
+100% {
+  transform: rotate(2deg);
+}
+}
+
+@media (max-width:768px) {
+  .input1{
+    
+      
+      z-index: 10;
+   
+  }
+  .blog{
+    z-index: 100;
+  }
+.btn-sec{
+  
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.branchBtn{
+  font-size: 16px;
+  margin-top: 30px;
+  width: 200px !important;
+  height:  200px !important;
+}
+}
+
+.brnch-modal .modal-content,.brnch-modal .modal-footer{
+border: none;
+}
+.brnch-modal .mdl-title{
+  color: #606060;
+  background: #e1e1e1;
+
+}
+.brnch-modal .modal-title{
+font-size: 25px;
+font-weight: bolder; 
+}
+
+
+/* .brnch-modal .btn {
+ background-color:#009b40;
+ border: none;
+ color: white;
+ padding: 8px 15px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ border-radius: 100px;
+ margin-top: 25px;
+ box-shadow: 5px 12px 10px rgba(0, 0, 0, 0.37);
+ font-size: 20px;
+ font-weight: 600;
+ transition: 2s;
+} */
+
+
+@media(max-width:767px){
+  .brnch-modal{
+    margin-top: 20px;
+  }
+  .brnch-modal .modal-title{
+    font-size: 18px;
+    font-weight: bolder; 
+  }
+
+  
+}
+/* -------------------------------due-promotion------------------------- */
+.promo-body{
+overflow-x: hidden;
+}
+.promo-table {
+border-collapse: collapse;
+margin: auto;
+
+display: block;
+width: fit-content;
+max-width: 100%;
+box-shadow: 0 0 1px 1px rgba(0, 0, 0, .1);
+}
+
+.promo-table td,
+.promo-table th {
+  white-space: nowrap;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.promo-table td a{
+  color: #0f0e0e;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+.promo-table td a:hover{
+  color: #0f0e0e74;
+  font-size: 17px;
+ 
+}
+.promo-table th {
+  background-color: #92c9e6;
+  color: #ffffff;
+}
+
+.promo-table tbody tr:nth-child(even) {
+  background-color: #d1e8f5;
+}
+
+@media (max-width:575px) {
+  .promo-table{
+    margin-left: 50px;
+  }
+}
+
+/* width */
+.promo-table::-webkit-scrollbar {
+height: 14px;
+
+}
+
+/* Track */
+.promo-table::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+/* Handle */
+.promo-table::-webkit-scrollbar-thumb {
+background: #888; 
+}
+
+/* Handle on hover */
+.promo-table::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+
+Button:hover{
+  color: rgb(15, 41, 3);
+}
+#selectbox1{
+   margin-left: 50px;
+  padding: 20px;
+  width:300px;
+  
+}
+
+
+@media (max-width:728px){
+  .buttongroup{
+   margin-left: 50px;
+  flex-direction: column;
+  width: 260px;
+ 
+  }
+  .designationbutton{
+    width: 100px;
+    height: 300px;
+  }
+  .buttongroup .m:hover{
+   background-color: green;
+   color: white;
+  }
+#selectbox{
+  width: 300px;
+  padding: 20px;
+  margin-left: 40px;
+}
+.input1{
+  margin-left: 50px;
+  width: 83%;
+}
+}
+
+
+
+/* ------------------------agent  managemet------------ */
+
+.adminBtnRow{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+
+  }
+  #antmnt-row{
+    margin-top: 20px;
+  }
+  .adminBtnCol{
+    display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  align-items: center;
+  }
+  
+  .adminBtnCol .adminBtn1{
+    border: none;
+    background: linear-gradient(to right, rgba(29, 58, 175, 1) 0%, rgba(2, 153, 70, 1) 100%);
+    border-radius: 5px;
+    text-align: center;
+    padding:  10px !important;
+    width: 15%;
+    height: 40px;
+    font-size: 10px;
+    transition: 'background' 0.5s ease, color 0.5s ease;
+    /* height: auto; */
+   
+  }
+  .adminBtnCol .adminBtn1:hover{
+    background: linear-gradient(to left, rgba(29, 58, 175, 1) 0%, rgba(2, 153, 70, 1) 100%);
+   color: white;
+   border-radius: 10px;
+  }
+  .adminBtnCol .adminBtn2{
+    border: none;
+    background: linear-gradient(to left, rgba(29, 58, 175, 1) 0%, rgba(2, 153, 70, 1) 100%); 
+   border-radius: 5px;
+   text-align: center;
+   padding:  10px !important;
+   width: 15%;
+   height: 40px;
+   font-size: 10px;
+   transition: 'background' 0.5s ease, color 0.5s ease; 
+   /* height: auto; */
+   
+  }
+  .adminBtnCol .adminBtn2:hover{
+    background: linear-gradient(to right, rgba(29, 58, 175, 1) 0%, rgba(2, 153, 70, 1) 100%);
+   color: white;
+   border-radius: 10px;
+  }
+  
+  @media (max-width:1204px) {
+    .adminBtn{
+      width:200px;
+      font-size: 10px;
+  
+    }
+    .adminBtnRow{
+      margin-top: 100px !important;
+    
+    }
+  }
+  
+  
+  /* .adminBtn::before, .adminBtn::after {
+    content: '';
+    width: 80px;
+    height: 100%;
+    background-color:#0070c0;
+    bottom:0px;
+    position: absolute;
+    z-index: -1;
+  
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 25% 50%);
+  
+  }
+  
+  .adminBtn::before {
+    left: -55px;
+  }
+   */
+  .adminBtn::after {
+    background: rgb(3, 42, 132);
+    /* background-color:  rgb(3, 22, 65); */
+    right: -60px;
+    transform: scaleX(-1); 
+    /* flip horizontally */
+  }
+
+
+
+
+  /* style for newagentinfo */
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+ margin-left: -40px;
+  margin-top: 50px ;
+}
+
+.btns {
+  padding: 10px 20px;
+  width: 200px;
+  font-size: 16px;
+  color: rgb(248, 247, 247);
+  border: 1px solid #ccc;
+  background-color:  rgba(29,58,175,1);
+  cursor: pointer;
+  border-radius: 5PX;
+  
+  transition: background-color 0.3s;
+}
+
+.btns:hover {
+  background-color: #2f700a;
+  color: white;
+}
+
+/* Media query for mobile view */
+@media (max-width: 600px) {
+  .btns{
+    margin-left: 30px;
+    width: 280px;
+  }
+  .button-group {
+      flex-direction: column;
+      align-items: stretch;
+      margin-left: 20px;
+  }
+
+
+  .btns {
+      margin-bottom: 10px; /* Space between buttons when stacked */
+  }
+}
+
+
+
+/* for agentmanagement backgroundbutton */
+/* @property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.moving-border {
+  width: 200px;
+  height: 30px;
+  position: relative;
+  background: linear-gradient(90deg, rgba(29,58,175,1) 0%, rgba(2,151,70,1) 100%);
+box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+  padding: 4px;
+}
+.moving-border::before,
+.moving-border::after {
+  content: "";
+  position: absolute;
+  inset: -0.2rem;
+  z-index: -1;
+  background: linear-gradient(var(--angle), 
+    #032146,  #C3F2FF, #b00);
+  animation: rotate 10s linear infinite;
+}
+.moving-border::after {
+  filter: blur(10px);
+}
+@keyframes rotate {
+  0%     { --angle: 0deg; }
+  100%   { --angle: 360deg;
+  }
+} */
+
+
+
+@keyframes slideOutLeft {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+.slide-out-left {
+  animation: slideOutLeft .8s forwards;
+  
+}
+@keyframes fadeInBlur {
+  0% {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+.fade-in-blur {
+  animation: fadeInBlur 1s ease-in-out forwards;
+}
+
+
+
+/* Bankdetailspage css for pancardfile */
+.pancardfile{
+  display: flex;
+
+}
+
+@media(max-width:768px){
+  .pancardsec p{
+    margin-left: 70px;
+  }
+  .pancardfile{
+
+    display: block;
+    /* flex-direction: column; */
+  }
+}
+
+
+
+
+/* ---------------------------Due Promotion CSS ----------------------------- */
+
+.trtable-container {
+  overflow-x: auto;
+  /* margin-left: 60px; */
+}
+
+
+
+.trtable th,
+.trtable td {
+  padding-top: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+.namelink {
+  color: #0f0e0e;
+}
+
+.namelink:hover {
+  font-weight: bold;
+}
+.trtable button{
+  background-color: rgb(29, 58, 174);
+  border-radius: 5px;
+  border: none;
+}
+.trtable button a{
+ color: white;
+
+}
+@media (max-width: 575px) {
+  .trtable-container {
+  width:300px;
+  }
+}
+
+/* Scrollbar styling */
+.trtable-container::-webkit-scrollbar {
+  height: 14px;
+}
+
+.trtable-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.trtable-container::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.trtable-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.promo-btn{
+  background-color: #009b40 !important;
+  color: white !important;
+}
+
+
+
+/* ------------------password reset---------------------- */
+
+
+.pswd-reset{
+
+ display: flex;
+justify-content: center;
+align-items: center; 
+height: 60vh;
+ 
+}
+.pswd-form{
+  display: flex;
+  flex-direction: column;
+  padding: 30px 25px;
+  border:none;
+  
+}
+.pswd-btn button{
+  background-color: #009b40;
+  color: white;
+  padding: 5px;
+  margin-left: 5px;
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+}
+.pswd-btn{
+  margin: 20px 5px;
+   
+}
+
+
+/* ----------------shift agent leg -------------------------> */
+.shiftagentleg{
+  margin-left: 5px;
+  width: 140px;
+  border:none;
+  background-color: rgb(29 58 174);
+  color: white;
+  border-radius: 5px;
+}
+.shiftagentleg:hover{
+  color:rgb(29 58 174);
+  background-color: transparent;
+  border: #0070c0 1px solid;
+}
+@media(max-width:768px){
+  .shiftagentleg{
+    margin-left: 20px;
+  }
+  .tree-view{
+    margin-left: -70px;
+  width: 430px;
+  }
+ 
+}
+.table-responsive  {
+
+
+  margin-left: 100px;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+
+
+/*------------------ scheme master css------------------------------- */
+.scheme-master-form{
+  width: 300px;
+}
+
+.scheme-master-col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* -----------------------schemelist button ------------------------ */
+.schemelist-edit,.schemelist-add,.schemelist-save{
+  border: none;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+}
+.schemelist-edit{
+  background-color: rgb(29, 58, 174);
+}
+.schemelist-edit:hover{
+  color: rgb(29, 58, 174);
+  background-color: transparent;
+  border: #0070c0 1px solid;
+}
+.schemelist-add{
+  background-color: #0070c0;
+}
+.schemelist-add:hover{
+  color:#0070c0;
+  background-color: transparent;
+  border:   rgb(29, 58, 174) 1px solid;
+}
+.schemelist-save{
+  background-color: #009b40;
+}
+.schemelist-save:hover{
+  color: #009b40;
+  background-color: transparent;
+  border:  #009b40 1px solid;
+}
+
+
+/* ----------------------------------------branch creation ---------------------------- */
+.brch-head{
+  background-color:  rgb(163, 161, 161);
+  text-align: center;
+  padding: 3px;
+  width: 1150px;
+  color: white;
+  margin-left: 150px;
+  margin-top: -270px;
+}
+#brnch-list-table{
+  margin-top: -250px;
+  margin-left: -20px;
+}
+.theadbrnch{
+  background-color: #e1e1e1;
+}
+
+@media(max-width:728px){
+  #brnch-list-table{
+margin-top: 20px;
+  }
+
+ .brch-head{
+  width: 250px;
+  margin-top: 60px;
+  margin-left: 80px;
+
+ }
+ .mdbtable{
+  margin-top: 30px;
+ }
+
+}
+
+
+/* ---------------------------due promo------------------------------- */
+.select-duepromo{
+  margin-top: 1px;
+}
+@media(max-width:728px){
+  .select-duepromo{
+    padding: 30px;
+  }
+  .select-duepromo option{
+  font-size: 10px;
+  }
+}
+
+
+
+
+
+/* -------------------------policy selling styles---------------------- */
+.policyselling-table{
+width:95%;
+margin-left: 20px;
+}
+@media(max-width:728px){
+  .policyselling-table{
+    width: auto;
+   
+  }
+  .salesdiv{
+    overflow-x: scroll;
+  }
+}
+/* -----------------due promotion-------------------------- */
+
+@media(max-width:728px){
+  
+.showtarget-table{
+  overflow-x: auto;
+}
+}
+.showrights-table{
+  width: 700px;
+}
+
+/* --------------------next step  */
+.selectbox-nextstep{
+ width:500px;
+ border:none;
+ border-bottom:1px dotted black;
+}
+
+@media(max-width:728px){
+  .selectbox-nextstep{
+    width: 270px;
+   border:none;
+ border-bottom:1px dotted black;
+    /* margin-left: 40px; */
+  }
+}
+
+
+/* ----------------------targets------------------------------- */
+.targetform-input{
+  margin-left: 100px;
+} 
+@media(max-width:728px){
+  .targetform-input{
+    margin-left: 0px;
+  }
+}
+/* -------------------------branch creation------------------------------- */
+.node-template {
+  position: relative;
+  cursor: pointer;
+}
+
+.node-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.node-template:hover .node-overlay {
+  opacity: 1;
+}
+
+
+/* ------------------------------target page------------------- */
+#alert-target{
+  font-size: 12px;
+  padding:0px;
+  
+}
+#alert-target-background{
+  width:auto;
+ 
+}
+
+
+
+
+
+
+/* ---------------------------agent management --------------------------- */
+.button-agentmanagement {
+  background: linear-gradient(90deg, rgba(29, 58, 175, 1) 0%, rgb(184, 187, 185) 100%);
+  border: none;
+  color: rgb(243, 241, 241);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+
+/* --------------------------agent mnagement chart------------------------------ */
+.apexdashboardchart1{
+  width: 100%;
+  border-right: 1px solid #9e9e9e;
+  padding: 10px;
+}
+
+.apexdashboardchart2{
+  width: 100%;
+  border-right: 1px solid #9e9e9e;
+  padding: 10px;
+}
+.apexdashboardchart3{
+  width: 100%;
+  
+}
+.dashboardchartheading{
+  color: rgba(29, 58, 175, 1);
+  font-weight: 600;
+}
+
+
+
+
+/* ---------------off canvas-------------- */
+.adminBtnRowoffcanvas{
+ 
+ 
+  margin-top: 0px;
+
+  }
+  #antmnt-rowoffcanvas{
+    margin-top: 20px;
+  }
+  .adminBtnColoffcanvas{
+   
+  align-items: right;
+margin-left: -20px;
+  width: 200px;
+  }
+  .adminBtnColoffcanvas button{
+    margin: 10px;
+  }
+
+  .adminBtnColoffcanvas .adminBtn1{
+    border: none;
+    background: linear-gradient(to right, rgba(29, 58, 175, 1) 0%, rgba(2, 153, 70, 1) 100%);
+    border-radius: 0px;
+    text-align: center;
+    padding:  10px !important;
+    width: 100%;
+    height: 40px;
+    font-size: 10px;
+    transition: 'background' 0.5s ease, color 0.5s ease;
+    /* height: auto; */
+   
+  }
+  .adminBtnColoffcanvas .adminBtn2{
+    border: none;
+    background: linear-gradient(to left, rgba(29, 58, 175, 1) 0%, rgba(2, 153, 70, 1) 100%); 
+   border-radius: 0px;
+   text-align: center;
+   padding:  10px !important;
+   width: 15%;
+   height: 40px;
+   font-size: 10px;
+   transition: 'background' 0.5s ease, color 0.5s ease; 
+   /* height: auto; */
+   
+  }
+
+  .adminBtnColoffcanvas .adminBtn1offcanvas{
+    border: none;
+    background: linear-gradient(to right, rgba(29, 58, 175, 1) 0%, rgba(2, 153, 70, 1) 100%);
+    border-radius: 0px;
+    text-align: center;
+    padding:  10px !important;
+    width: 100%;
+    height: 30px;
+    color: white;
+    font-size: 10px;
+    transition: 'background' 0.5s ease, color 0.5s ease;
+    /* height: auto; */
+   
+  }
+
+  .adminBtnColoffcanvas .adminBtn1offcanvas:hover{
+    background: linear-gradient(to left, rgba(29, 58, 175, 1) 0%, rgba(2, 153, 70, 1) 100%);
+   color: white;
+  
+  }
+
+
+
+
+.selectbox-policyselling{
+  margin-left: 100px;
+}
+@media(max-width:728px){
+  .selectbox-policyselling{
+    margin-left: 10px;
+  }
+  .month-select{
+    width: 300px;
+    margin-left: 0px;
+  }
+}
+  
+
+
+.input-borberbottom{
+  border: none;
+  border-bottom: 1px solid black;
+}
+.load-btn-policyselling{
+  border: none;
+  padding: 5px;
+  background-color: rgb(29, 58, 174);
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+
+@media(max-width:728px){
+  .load-btn-policyselling{
+ margin-left: 200px;
+  }
+  .policyselling-radios{
+    margin-left: 100px;
+    display: flex;
+  }
+  
+   #password-nextstep{
+    margin-left: 60px;
+   }
+   .rights-search{
+    margin-left: 50px;
+   }
+}
+
+
+/* ------------------------agent  managemet------------ */
+/* ------------------------agent  managemet------------ */
+
+
+.top-offcanvas-navbar {
+  background: linear-gradient(to bottom, rgba(124, 123, 123, 0.5) 0%,rgb(255, 255, 255,0.5) 50%, rgb(255, 255, 255,0.5) 100%);
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1)  ;
+  border: 0px !important; 
+}
+.offcanvas-backdrop {
+  background-color:transparent; 
+
+}
+
+
+.top-offcanvas-navbar .adminBtnRow{
+  display: flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+margin-top: -5px;
+
+}
+.adminBtnRow{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  
+
+
+  }
+
+  
+  
+  #antmnt-row{
+    margin-top: 20px;
+  }
+  .adminBtnCol{
+    display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items: center;
+  color: white;
+  }
+  .adminBtnCol :hover{
+    background-color: red;
+  }
+ 
+  .adminBtnCol .adminBtn1{
+     /* filter: blur(none); */
+    border: none;
+    background: linear-gradient(to right, rgba(29, 58, 175, 1) 0%, rgba(2, 153, 70, 1) 100%);
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    width: 15%;
+    height: 40px;
+    font-size: 10px;
+    transition: 'background' 0.5s ease, color 0.5s ease;
+    /* height: auto; */
+   
+  }
+  .adminBtnCol .adminBtn1:hover{
+    background: linear-gradient(to left, rgba(29, 58, 175, 1) 0%, rgba(2, 153, 70, 1) 100%);
+   color: white;
+   border-radius: 10px;
+  }
+  .adminBtnCol .adminBtn2{
+    
+    border: none;
+    background: linear-gradient(to left, rgba(29, 58, 175, 1) 0%, rgba(2, 153, 70, 1) 100%); 
+   border-radius: 5px;
+   text-align: center;
+   color: white;
+   width: 15%;
+   height: 40px;
+   font-size: 10px;
+   transition: 'background' 0.5s ease, color 0.5s ease; 
+   /* height: auto; */
+   
+  }
+  .adminBtnCol .adminBtn2:hover{
+    background: linear-gradient(to right, rgba(29, 58, 175, 1) 0%, rgba(2, 153, 70, 1) 100%);
+   color: white;
+   border-radius: 10px;
+  }
+  
+  @media (max-width:1204px) {
+    .adminBtn{
+      width:200px;
+      font-size: 10px;
+  
+    }
+    .adminBtnRow{
+      margin-top: 100px !important;
+    
+    }
+  }
+  
+  
+ 
+  .adminBtn::after {
+    background: rgb(3, 42, 132);
+    /* background-color:  rgb(3, 22, 65); */
+    right: -60px;
+    transform: scaleX(-1); 
+    /* flip horizontally */
+  }
+/* ---------------------------agent info new--------------- */
+
+
+.agentinfodiv{
+  font-size: 14px;
+}
+
+
+.small-label  {
+  padding-left: 5px !important;
+  font-size: 12px !important;
+  line-height: 1.1rem !important;
+}
+
+/* -----------------agent tree view grid view------- */
+.legend-name{
+  font-size: 10px;
+}
+
+@media (max-width:728px) {
+  .legend-col{
+  display: flex;
+  font-size: 11px;
+  }
+  .legend-color{
+    margin:0px 5px !important;
+    
+  }
+  .legend-name{
+    font-size: 11px;
+  }
+}
+.trbody td{
+  font-size: 12px;
+  border: none;
+}
+.treeview-div{
+  font-size: 12px;
+}
+
+/* -------------rights ------------------- */
+
+/* ------------------common tbody--------- */
+.common-tbody{
+  font-size: 12px;
+  text-align: center;
+}
+
+.common-tbody  td{
+  text-align: center;
+}
+.common-thead {
+  background-color: #e1e1e1;
+  font-size: 12px;
+  /* border-collapse: inherit; */
+  text-align: center;
+  position: sticky;
+  top: 0; /* Stick to the top */
+  /* z-index: 1; */
+  table-layout: fixed;
+}
+.common-thead th{
+  font-size:12px;
+  font-weight:bold;
+  background:#e1e1e1;
+  align-content: center;
+}
+.brochure-btn{
+  margin:0px 5px ;
+ height: 30px;
+    width: 140px;
+    border: none;
+    background-color: rgb(29 58 174);
+    color: white;
+    border-radius: 5px;
+}
+.brochure-btn a{
+  color: white;
+  text-decoration: none;
+}
+
+
+/* ======================incentive edit list============= */
+
+
+
+.load-table-btn,.edit-date-btn{
+background-color: rgb(29 58 174);
+color: white;
+font-size: 14px;
+border: none;
+}
+.load-table-btn:hover,.edit-date-btn:hover{
+border: 1px rgb(29 58 174) solid;
+background: transparent;
+color: rgb(29 58 174);
+}
+
+/* ------------------styles for reports------------- */
+.tabletable {
+  width: 80%;
+  overflow-y: scroll;
+  border-collapse: collapse;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  display: block; /* Allows overflow to work */
+  height:auto ; /* Set a maximum height for the table */
+}
+
+.tablehead {
+  display: table; /* Ensures thead behaves like a table */
+  font-size: 12px;
+  table-layout: auto; /* Allows the widths of the columns to be set */
+}
+
+.tablehead th {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ccc; /* Optional: adds borders to the cells */
+}
+
+.reports-pages-operationreports{
+  margin-top: -20px;
+}
+.reports-pages-operationreports h6{
+  margin-left:-10px;
+  font-size: 14px;
+  cursor:pointer;
+  border: none;
+  transition: background 0.3s ease, font-size 0.3s ease; 
+}
+.reports-pages-operationreports h6:hover{
+  background: linear-gradient(to bottom, rgba(29, 58, 175, 1) 0%, rgba(2, 151, 70, 1) 100%);
+  font-size: 15px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.reports-pages-masterreports h6{
+  margin-left:-30px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+ 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e3081;
+  border-radius: 10px;
+ 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #044617;
+}
+
+
+.gradientStyle {
+  background: linear-gradient(90deg, rgba(29, 58, 175, 1) 0%, rgba(2, 151, 70, 1) 100%);
+  font-size: 20px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  display: inline-block;
+}
+
+.gradientStyle::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(29, 58, 175, 1) 0%, rgba(2, 151, 70, 1) 100%);
+} 
+
+
+
+.employee-list .common-thead{
+  width: 100px;
+  max-width: 300px;
+}
+

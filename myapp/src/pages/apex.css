@@ -1,0 +1,291 @@
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #8a8989;
+    border-radius: 10px;
+    height: 3px;
+    transition:0.3s;
+}
+
+.login_bg {
+    overflow-x:hidden;
+}
+
+.flex-container{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+
+#nav {
+  background-color:#e3e3e3;
+  box-shadow:2px 2px 8px 0.1px rgba(0,0,0,0.4);
+  align-items: center;
+  top:0;
+  position:sticky;
+  z-index:999;
+}
+
+#nav-brand {
+  display: flex;
+  align-items: center;
+}
+
+#navmenu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img2 {
+  height: 30px;
+  width: auto;
+}
+
+.navp{
+        color: #000000;
+        font-weight:500;
+        transition: color 0.2s ease-in-out;
+        font-size:10px;
+        display:inline;
+        padding:5px;
+   }
+.navp:hover{
+        cursor:pointer;
+        color: #C00000;
+        font-weight:500;
+        display:inline;
+}
+
+a{
+    text-decoration:none;
+}
+
+.non_scrollable_div{
+    background-color:#e5e5e5;
+    width:100%;
+    height:500px;
+    border-radius:15px;
+    box-shadow: 2px 2px #C00000;
+    transition:0.3s;
+}
+.non_scrollable_div:hover{
+    background-color:#e5e5e5;
+    width:100%;
+    height:500px;
+    border-radius:15px;
+    box-shadow: none;
+}
+
+.scrollable_div{
+    width:100%;
+    height:500px;
+    overflow-y:scroll;
+    text-align:center;
+}
+
+.product_list_div{
+    width:100%;
+    height:540px;
+    border-radius:15px;
+    background-color:white;
+    overflow-y:scroll;
+    padding:10px;
+    transition:0.3s;
+}
+
+table, tr,td{
+   
+ 
+}
+
+th{
+   color:black;
+   font-size:11px;
+   text-align:center;
+   vertical-align: middle;
+   margin-top:5px;
+   margin-bottom:5px;
+}
+
+td{
+   color:black;
+   font-size:11px;
+   text-align:center;
+   vertical-align: middle;
+   margin-top:5px;
+   margin-bottom:5px;
+}
+
+
+
+.btn{
+    color:#f7f4f4;
+    background-color:#fff;
+}
+.btn span{
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    color:#f7f4f4;
+    font-size: 9px;
+}
+.btn:hover{
+    color:#030303;
+}
+
+
+
+
+.chart-container {
+    padding-top: 15px;
+}
+.dash{
+    background-color: transparent;
+    border-radius:15px;
+    padding:10px;
+    margin-right:70px;
+    box-shadow: 2px 2px 8px grey inset;
+}
+.dash:hover{
+    cursor:pointer;
+}
+
+.custom-table {
+    border-collapse: collapse;
+    display: none; /* Hide all tables by default */
+}
+
+
+@media screen and (max-width: 767px) {
+.navp{
+    display:block;
+}
+.flex-container{
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+}
+
+
+
+.css-hyum1k-MuiToolbar-root {
+    min-height: 4px;
+}
+.revathiv{
+    position:absolute;
+    left:60px;
+    top:50px;
+    box-shadow:2px 2px 2px 2px rgb(201, 199, 199);
+    border-radius: 20px;
+}
+.revathc{
+    letter-spacing:2px;
+    color:#0070C0;
+    font-size:15px;
+}
+.sreeja{
+    position:absolute;
+    left:60px;
+    top:270px;
+    box-shadow:2px 2px 2px 2px rgb(201, 199, 199);
+    border-radius: 20px;
+}
+.sreejv{
+    letter-spacing:2px;
+    color:#0070C0;
+    font-size:15px;
+}
+
+.venu{
+    position:absolute;
+    left:400px;
+    top: 270px;
+    box-shadow:2px 2px 2px 2px rgb(201, 199, 199);
+    border-radius: 20px;
+}
+.ven{
+    letter-spacing:2px;
+    color:#0070C0;
+    font-size:15px;
+}
+.ve{
+    position:absolute;
+    left:400px;
+    top:50px;
+    box-shadow:2px 2px 2px 2px rgb(201, 199, 199);
+    border-radius: 20px;
+}
+.vv{
+    letter-spacing:2px;
+    color:#0070C0;
+    font-size:15px;
+}
+.revsree{
+    position:absolute;
+    left:750px;
+    top:60px;
+    width: 450px;
+    height: 390px;
+    border:none;
+    box-shadow:2px 2px 2px 2px rgb(201, 199, 199);
+    border-radius: 20px;
+    border-radius: 20px;
+    padding:20px;
+}
+.revsre{
+    letter-spacing:2px;
+    color:#0070C0;
+    font-size:15px;
+}
+.dashboard{
+    letter-spacing:5px;
+    color:#0070C0;
+    font-size:20px;
+    
+  
+}
+.d{
+    height: 600px;
+ text-align: center ;
+ margin-top: 20px ;
+}
+@media (max-width: 768px) {
+   .sreeja{
+    margin-top: 100px;
+   }
+   .venu{
+       left: 30px;
+       top: 600px;
+   }
+   .ve{
+    left: 30px;
+    top: 850px;
+   
+   
+   }
+   .sreeja{
+    left: 30px;
+   }
+   .revathiv{
+    left: 30px;
+    top: 110px;
+   }
+   .revsree{
+    left: 30px;
+    height: 250px;
+    top: 1100px;
+    width: 300px;
+   }
+}
+   
